@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Personal de Parkour</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2d1a0a;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; /* Centra el contenido horizontalmente */
+            align-items: flex-start; /* Alinea el contenido en la parte superior */
+        }
+
+        #sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #310445;
+            color: #fff;
+            width: 200px;
+            height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #content {
+            max-width: 800px;
+            margin: 20px 0; /* Espacio superior e inferior */
+            background-color: #e7e296;
+            padding: 20px;
+        }
+
+        #sidebar a {
+            text-decoration: none;
+            color: #fff;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        #sidebar a:hover {
+            background-color: #fff;
+            color: #310445;
+        }
+        header {
+    background-image: url('./pk_portada.jpg'); /* Reemplaza 'ruta-de-la-imagen.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover;
+    color: #fff; /* Cambia el color del texto para que sea legible en la imagen de fondo */
+    text-align: center;
+    padding: 100px; /* Ajusta el espaciado según tus preferencias */
+}
+.titulo-centrado {
+            text-align: center;
+        }
+
+
+        article h2,
+        article h3,
+        article textarea,
+        article p {
+            text-align: justify; /* Justificar el texto */
+            margin-bottom: 30px; /* Espacio inferior entre párrafos */
+        }
+        article h1 {
+            text-align: justify; /* Justificar el texto */
+            margin-bottom: 50px; /* Espacio inferior entre párrafos */
+        }
+
+        #video-fondo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+        }
+
+        #video-adicional {
+    text-align: center;
+    margin-top: 100px; /* Por ejemplo, ajusta este valor según la separación deseada */
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; /* Mejora el desplazamiento en iOS */
+    scroll-behavior: smooth;
+    /* Ajusta el tamaño y los estilos según sea necesario */
+}
+
+.slide {
+    scroll-snap-align: start;
+    flex: 0 0 auto;
+    width: 100%;
+        }
+        .imagen-centrada {
+    text-align: center; /* Centra los elementos dentro del contenedor */
+}
+
+.imagen-centrada img {
+    display: block; /* Hace que la imagen sea un bloque para aplicar márgenes automáticos */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    max-width: 300px; /* Establece el ancho máximo de la imagen */
+}
+
+
+
+
+    </style>
+    
+</head>
+<body>
+    <video autoplay muted loop id="video-fondo">
+        <source src='./fondo.mp4' type="video/mp4">
+        <!-- También puedes agregar más formatos de video como alternativas -->
+      
+    </video>
+    <div id="sidebar">
+        <a href="#inicio">Inicio</a>
+        <a href="#introduccion">Introducción</a>
+        <a href="#entrenarlo">¿Entrenarlo?</a>
+        <a href="#progreso">Progreso</a>
+        <a href="#contacto">Contacto</a>
+
+        <div id="video-adicional">
+            <video autoplay muted loop style="max-width: 180px;">
+                <source src="./pk.mp4" type="video/mp4">
+            </video>        </div>
+    </div>
+    
+    <div id="content">
+        <div id="content">
+            <div id="inicio"></div> <!-- Este es el identificador para el inicio de la página -->
+            <!-- Tu contenido -->
+        </div>
+       
+        <header>
+            <h1 class="titulo-centrado">Blog Personal de Parkour</h1>
+        </header>
+        <main>
+            <article id="introduccion">
+                <h2 class="titulo-centrado">Introducción al Parkour</h2>
+
+                <img src='./pk.gif' alt="Descripción del GIF" style="min-width: 800px;">
+
+
+                <p>El parkour es una disciplina física y mental que se originó en Francia a fines del siglo XX. Su objetivo principal es moverse de manera eficiente y fluida a través del entorno urbano o natural, superando obstáculos de manera creativa y rápida. Los practicantes de parkour, conocidos como traceurs (en masculino) o traceuses (en femenino), utilizan su cuerpo de diversas formas para saltar, trepar, correr, rodar y sortear obstáculos de manera elegante y eficiente.</p>
+    
+                <p>Fecha: 11/10/23</p>
+                    <p>Autor: Víctor Daniel Guzmán Mondragón</p>
+                            </article>
+
+            <article id="entrenarlo">
+                <h2 class="titulo-centrado">¿Por qué entrenarlo?</h2>
+
+                <img src='./pkb.png' alt="Descripción de la imagen" style="max-width: 800px;">
+
+                <p>Entrenar parkour ofrece una serie de beneficios físicos, mentales y emocionales que lo convierten en una disciplina atractiva para muchas personas.
+            
+                    <p> Desarrollo Físico: El parkour es una forma efectiva de mejorar la fuerza, la agilidad, la flexibilidad y la resistencia. Los practicantes desarrollan una mayor conciencia corporal y control sobre su movimiento.<p>
+         
+         <p>Superación de Obstáculos: El parkour se centra en superar obstáculos de manera creativa y eficiente. Los practicantes aprenden a afrontar desafíos físicos y mentales, lo que puede traducirse en una mayor confianza en la vida cotidiana.<p>
+         
+         <p>Movimiento Libre: Promueve la libertad de movimiento y la expresión personal. No requiere un equipo costoso ni un entorno específico, por lo que puedes practicarlo en cualquier lugar.<p>
+         
+         <p>Mente y Concentración: Requiere un alto nivel de concentración y toma de decisiones rápidas. Esto fomenta la mente y la concentración, lo que puede ser beneficioso en situaciones cotidianas.<p>
+         
+         <p>Creatividad: Los practicantes de parkour desarrollan su creatividad al encontrar formas únicas de superar obstáculos y desarrollar nuevas técnicas de movimiento.<p>
+         
+         <p>Comunidad: El parkour a menudo se practica en grupos y comunidades. Esto brinda la oportunidad de hacer amigos, compartir conocimientos y aprender de otros practicantes.<p>
+         
+         <p>Adaptabilidad: Fomenta la adaptabilidad y la capacidad de afrontar situaciones inesperadas, lo que puede ser útil en la vida diaria.<p>
+         
+         <p>Estilo de Vida Activo: Promueve un estilo de vida activo y saludable, lo que puede mejorar la salud cardiovascular y ayudar a mantener un peso saludable.<p>
+         
+         <p>Diversión: Para muchas personas, el parkour es simplemente divertido. Saltar, correr y superar obstáculos puede ser emocionante y gratificante.</p>
+         <p>Fecha: 11/10/23</p>
+                     <p>Autor: Víctor Daniel Guzmán Mondragón</p>
+                    
+            </article>
+
+            <div id="progreso">
+                <div class="imagen-centrada">
+                    <h1 class="titulo-centrado">Progreso</h1>
+                    <h2 class="titulo-centrado">Progreso Inicial</h2>
+                    <img src='./Pini.jpeg' alt="Progreso inicial" style="max-width: 300px;">
+                    <p>Inicialmente se empieza entrenando con más personas del ambiente para acoplarse fisica y mentalmente al ejercicio nuevo</p>
+                    <p>En este caso iniciamos en un gimnasio referente al ejercicio que haremos en un futuro</p>
+                    <p>De esta manera y con gran esfuerzo lograremos grandes avances</p>
+                
+                </div>
+                
+            
+                <h2 class="titulo-centrado">Progreso de 3 Meses</h2>
+    <div class="carousel">
+                    <div class="slide">
+                        <video src='./pm1.mp4' alt="Descripción del video 1"controls></video>
+                    </div>
+                    <div class="slide">
+                        <video src='./pm2.mp4' alt="Descripción del video 2"controls></video>
+                    </div>
+                </div>
+                <p>Como se puede observar en los videos anteriores, después de un arduo entrenamiento empezamos con la practica de piruetas</p>
+                <p>Estás llevan bastante concentración y fuerza para su implementación pero mientras se haga un entrenamiento constante se mejorara la tecnica</p>
+
+                <h2 class="titulo-centrado">Progreso Actual</h2>
+    <div class="carousel">
+        <div class="slide">
+            <video src='./Pa1.mp4'controls></video>
+        </div>
+        <div class="slide">
+            <video src='./pa2.mp4' controls></video>
+           
+        </div>
+        
+
+        <!-- Agrega más videos según sea necesario -->
+    </div>
+    <p>Actualmente se puede apreciar la mejoria en tecnica y fuerza al intentar los "tricks" como usualmente llamamos en este deporte</p>
+    <p>Gracias a un gran entrenamiento y constancia se pueden apreciar los frutos después de un largo camino</p>
+    <p>Pero el progreso no se detiene y esperamos mejorar aún más (;</p>
+
+            <div id="contacto">
+                <h2>Información de Contacto</h2>
+                <p>Nombre: Víctor Guzmán</p>
+                <p>Email: victor_correodeprueba1@hotmail.com</p>
+                <p>Teléfono: 4431######</p>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2023 Blog Personal de Parkour by Víctor ;)</p>
+        </footer>
+    </div>
+    <script>
+        if ('scrollBehavior' in document.documentElement.style === false) {
+    import('smoothscroll-polyfill').then(module => {
+        module.polyfill();
+    });
+}
+    </script>
+</body>
+</html>
+
+
+

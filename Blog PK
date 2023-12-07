@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog Personal de Parkour</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Blog Personal de Parkour</h1>
+        <nav>
+            <ul>
+                <li>Inicio</li>
+ <form>
+        <label for="busqueda">Buscar:</label>
+        <input type="text" id="busqueda" name="busqueda" placeholder="Escribe tu búsqueda aquí">
+        <button type="submit">Buscar</button>
+    </form>                <li>Contacto</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+        
+    <h2>Introducción al Parkour</h2>
+    <p>El parkour es una disciplina física y mental que se originó en Francia a fines del siglo XX. Su objetivo principal es moverse de manera eficiente y fluida a través del entorno urbano o natural, superando obstáculos de manera creativa y rápida. Los practicantes de parkour, conocidos como traceurs (en masculino) o traceuses (en femenino), utilizan su cuerpo de diversas formas para saltar, trepar, correr, rodar y sortear obstáculos de manera elegante y eficiente.</p>
+    
+    	<p>Fecha: 11/10/23</p>
+            <p>Autor: Víctor Daniel Guzmán Mondragón</p>
+            
+            </article>
+        
+        <article>
+            <h2>¿Por qué entrenarlo?</h2>
+             <p>Categoría: [Categoría de deporte]</p>
+            <p>Entrenar parkour ofrece una serie de beneficios físicos, mentales y emocionales que lo convierten en una disciplina atractiva para muchas personas.
+            
+           <p> Desarrollo Físico: El parkour es una forma efectiva de mejorar la fuerza, la agilidad, la flexibilidad y la resistencia. Los practicantes desarrollan una mayor conciencia corporal y control sobre su movimiento.<p>
+
+<p>Superación de Obstáculos: El parkour se centra en superar obstáculos de manera creativa y eficiente. Los practicantes aprenden a afrontar desafíos físicos y mentales, lo que puede traducirse en una mayor confianza en la vida cotidiana.<p>
+
+<p>Movimiento Libre: Promueve la libertad de movimiento y la expresión personal. No requiere un equipo costoso ni un entorno específico, por lo que puedes practicarlo en cualquier lugar.<p>
+
+<p>Mente y Concentración: Requiere un alto nivel de concentración y toma de decisiones rápidas. Esto fomenta la mente y la concentración, lo que puede ser beneficioso en situaciones cotidianas.<p>
+
+<p>Creatividad: Los practicantes de parkour desarrollan su creatividad al encontrar formas únicas de superar obstáculos y desarrollar nuevas técnicas de movimiento.<p>
+
+<p>Comunidad: El parkour a menudo se practica en grupos y comunidades. Esto brinda la oportunidad de hacer amigos, compartir conocimientos y aprender de otros practicantes.<p>
+
+<p>Adaptabilidad: Fomenta la adaptabilidad y la capacidad de afrontar situaciones inesperadas, lo que puede ser útil en la vida diaria.<p>
+
+<p>Estilo de Vida Activo: Promueve un estilo de vida activo y saludable, lo que puede mejorar la salud cardiovascular y ayudar a mantener un peso saludable.<p>
+
+<p>Diversión: Para muchas personas, el parkour es simplemente divertido. Saltar, correr y superar obstáculos puede ser emocionante y gratificante.</p>
+<p>Fecha: 11/10/23</p>
+            <p>Autor: Víctor Daniel Guzmán Mondragón</p>
+           
+        </article>
+        
+         <h2>Progreso Inicial</h2>
+    <textarea id="progreso-inicial" name="progreso-inicial" rows="4" cols="50">
+        Aquí estará el progreso escrito y quizás una imagen anexada 
+    </textarea>
+
+    <h2>Progreso de 3 Meses</h2>
+    <textarea id="progreso-3-meses" name="progreso-3-meses" rows="4" cols="50">
+        Aquí estará el progreso escrito y quizás una imagen anexada 
+    </textarea>
+         <h2>Progreso Actual</h2>
+    <textarea id="progreso-actual" name="progreso-actual" rows="4" cols="50">
+        Aquí estará el progreso escrito y quizás una imagen anexada 
+    </textarea>
+    
+    </main>
+    <footer>
+        <p>&copy; 2023 Blog Personal de Parkour by Víctor ;)</p>
+    </footer>
+</body>
+</html>
